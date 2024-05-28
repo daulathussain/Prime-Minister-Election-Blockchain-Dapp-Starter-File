@@ -19,7 +19,7 @@ By the end of this tutorial, you’ll have a fully functional decentralized voti
 
 Kindly follow the following Instructions to run the project in your system and install the necessary requirements
 
-- [Final Source Code](https://www.theblockchaincoders.com/sourceCode/building-and-deploying-a-full-mern-stack-blockchain-music-artists-social-media-dapp)
+- [Final Source Code](https://www.theblockchaincoders.com/sourceCode/build-and-deploy-your-first-decentralized-election-voting-dapp-or-solidity-next.js-hardhat)
 
 #### Setup Video
 
