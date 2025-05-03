@@ -15,111 +15,71 @@ By the end of this tutorial, you’ll have a fully functional decentralized voti
 
 ![alt text](https://www.daulathussain.com/wp-content/uploads/2024/05/Prime-Minister-Election-Voting-Dapp.jpeg)
 
-## Instruction
-
 Kindly follow the following Instructions to run the project in your system and install the necessary requirements
 
 - [Final Source Code](https://www.theblockchaincoders.com/sourceCode/build-and-deploy-your-first-decentralized-election-voting-dapp-or-solidity-next.js-hardhat)
 
 #### Setup Video
 
-- [Final Code Setup video](https://youtu.be/v-Fa4Es9rDE?si=i0nfzn3-H-3JnwK0)
+- [Final Code Setup video](https://youtu.be/2olJELwCDIk?si=Ub7bjZzWf5c-2CrZ)
 
-```https://code.visualstudio.com/download
-  WATCH: Setup & Demo Of Project
+```
+  TITLE: Decentralized Election Voting DApp
+  VIDEO: https://youtu.be/2olJELwCDIk?si=Ub7bjZzWf5c-2CrZ
+  CODE: https://www.theblockchaincoders.com/sourceCode/build-and-deploy-your-first-decentralized-election-voting-dapp-or-solidity-next.js-hardhat
 ```
 
 #### Install Vs Code Editor
 
-```https://code.visualstudio.com/download
-  GET: VsCode Editor
 ```
-
-#### DEPLOYMENT
-
-- [Get $200 Credit](https://m.do.co/c/fbe1551c5ae1)
-
-```https://nodejs.org/en/download
-  PROVIDER: Digital Ocean
+  GET: VsCode Editor
+  URL: https://code.visualstudio.com/download
 ```
 
 #### NodeJs & NPM Version
 
-```https://nodejs.org/en/download
-  NodeJs: v18.12.2 / latest version
-  NPM: 10.5.0
+```
+  NodeJs: v18.17.1
+  NPM: 8.19.2
+  VIDEO: https://youtu.be/PIR0oBVowXU?si=_jVYKmd94tPjmuQR
+  URL: https://nodejs.org/en/download
 ```
 
-#### PInata IPFS
+#### Pinata
 
-```https://www.pinata.cloud/
- GET: API_KEY
- GET:  SECRECT_KEY
 ```
-
-## PInata IPFS IMAGE UPLOAD
-
-```https://www.pinata.cloud/
- headers: {
-            pinata_api_key: `YOUR_API_KEY`,
-            pinata_secret_api_key: `YOUR_SECRECT_KEY`,
-            "Content-Type": "multipart/form-data",
-          },
-```
-
-## PInata IPFS JSON DATA UPLOAD
-
-```https://www.pinata.cloud/
- headers: {
-            pinata_api_key: `YOUR_API_KEY`,
-            pinata_secret_api_key: `YOUR_SECRECT_KEY`,
-             "Content-Type": "application/json",
-          },
-```
-
-#### Clone Starter File
-
-```URL
-  GET: Project Starter File Download
+ GET PINATA API KEY
+ GET PINATA SECRET KEY
+ URL: https://pinata.cloud
 ```
 
 All you need to follow the complete project and follow the instructions which are explained in the tutorial by Daulat
 
-## Final Code Instruction
-
-If you download the final source code then you can follow the following instructions to run the Dapp successfully
-
-#### Setup Video
-
-```https://code.visualstudio.com/download
-  WATCH: Setup & Demo Of Project
-```
-
-#### Final Source Code
-
-```https://www.theblockchaincoders.com/SourceCode
-  Download the Final Source Code
-```
-
 #### Install Vs Code Editor
 
-```https://code.visualstudio.com/download
+```
   GET: VsCode Editor
+  URL: https://code.visualstudio.com/download
 ```
 
 #### NodeJs & NPM Version
 
-```https://nodejs.org/en/download
-  NodeJs: v21.6.2 / latest version
-  NPM: 10.5.0
+```
+  NodeJs: v18.17.1 (MUST)
+  VIDEO: https://youtu.be/PIR0oBVowXU?si=_jVYKmd94tPjmuQR
+  NPM: 8.19.2
+  URL: https://nodejs.org/en/download
 ```
 
 #### Test Faucets
 
 Alchemy will provide you with some free test faucets which you can transfer to your wallet address for deploying the contract
 
-```https://faucet.polygon.technology/
-  Get: Free Test Faucets
+```
+
+Get: Free Test Faucets
+URL: https://www.theblockchaincoders.com/resource
+
 ```
 
 #### RemixID
@@ -130,17 +90,20 @@ We are using RemixID for deploying the contract and generation of the ABI in the
   OPEN: RemixID
 ```
 
-#### Polygon Amoy
+#### RPU URL PROVIDER
 
-```https://www.oklink.com/amoy
-  OPEN: Polygon Amoy
+```
+  NAME: ANKR.COM
+  URL: https://www.ankr.com/rpc/
 ```
 
-#### Formspree
+#### Pinata IPFS
 
-```https://formspree.io/
-  CREATE ACCOUNT: https://formspree.io/
-  const [state, handleSubmit] = useForm("YOUR_KEY");
+```https://www.pinata.cloud/
+  # PINATE KEYS
+  URL: https://www.pinata.cloud/
+  NEXT_PUBLIC_PINATA_AIP_KEY = YOUR_PINATA_API_KEY
+  NEXT_PUBLIC_PINATA_SECRECT_KEY = YOUR_PINATA_SECRECT_KEY
 ```
 
 ## Important Links
@@ -154,36 +117,3 @@ We are using RemixID for deploying the contract and generation of the ABI in the
 - [@theblockchaincoders.com](https://www.theblockchaincoders.com/)
 - [@consultancy](https://www.theblockchaincoders.com/consultancy)
 - [@youtube](https://www.youtube.com/@daulathussain)
-
-#### PACKAGE.JSON
-
-```https://www.theblockchaincoders.com/SourceCode
-  {
-  "name": "voting-organization",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
-  },
-  "dependencies": {
-    "axios": "^0.27.2",
-    "ether": "^0.0.9",
-    "next": "12.2.5",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "react-dropzone": "^14.2.2",
-    "react-icons": "^4.4.0",
-    "web3modal": "^1.9.9",
-    "react-hot-toast": "^2.4.1",
-    "@formspree/react": "^2.5.1"
-  },
-  "devDependencies": {
-    "@nomicfoundation/hardhat-toolbox": "^2.0.0",
-    "hardhat": "^2.11.2"
-  }
-}
-
-```
